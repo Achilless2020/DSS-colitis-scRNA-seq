@@ -1,0 +1,10 @@
+config.local.R
+inputs/*
+!inputs/README.md
+outputs/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+renv/library/
+renv/staging/
