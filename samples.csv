@@ -1,7 +1,0 @@
-sample,group,matrix_dir,expected_doublet_rate
-S1,Chronic,inputs/counts/S1,
-S2,Chronic,inputs/counts/S2,
-S3,Chronic,inputs/counts/S3,
-S4,Acute,inputs/counts/S4,
-S5,Acute,inputs/counts/S5,
-S6,Acute,inputs/counts/S6,
