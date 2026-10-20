@@ -1,0 +1,7 @@
+panel,analysis_id,receiver,reference,sender_1,sender_2,sender_3,geneset,lfc_cutoff,top_n_ligands,receptor_expression_scope
+A,Fig6A_IS_I_Inflam,IS_I_Inflam,IS_I_like,Cxcl12+ iFs,lY6C1+ iFs,Slpi+ iFs,DE,0.25,15,affected and reference union
+B,Fig6B_IFN_response_Neu,IFN_response_Neu,IS_I_like,Cxcl12+ iFs,lY6C1+ iFs,Slpi+ iFs,DE,0.25,15,affected and reference union
+C,Fig6C_IS_I_Neu,IS_I_Neu,IS_I_like,Cxcl12+ iFs,lY6C1+ iFs,Slpi+ iFs,DE,0.25,15,affected and reference union
+D,Fig6D_Cxcl12_iFs,Cxcl12+ iFs,vFs,IS_I_Inflam,IS_I_Neu,IFN_response_Neu,DE,0.25,15,affected and reference union
+E,Fig6E_Slpi_iFs,Slpi+ iFs,vFs,IS_I_Inflam,IS_I_Neu,IFN_response_Neu,DE,0.25,15,affected and reference union
+F,Fig6F_Ly6c1_iFs,lY6C1+ iFs,vFs,IS_I_Inflam,IS_I_Neu,IFN_response_Neu,DE,0.25,15,affected and reference union
