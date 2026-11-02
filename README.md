@@ -1,8 +1,8 @@
-# DSS colitis single-cell analysis: R4-F2 review package
+# DSS colitis single-cell analysis
 
-This package reorganizes the author-designated `scRNA_analysis_codenew.R` into an ordered, configurable analysis. Its NicheNet definitions follow the author's supplied `nichenet简化版.R` and original Figure 6 panel definitions, as clarified on 2026-10-20. It contains raw matrix import, explicit QC and per-sample DoubletFinder, global Seurat clustering, fibroblast and neutrophil subclustering, marker exports, Monocle3 trajectories under two alternative roots, and NicheNet analyses. Optional sample-level pseudobulk DE and enrichment are revision analyses. No study expression matrices or network binaries are bundled.
+This package reorganizes the author-designated `scRNA_analysis_codenew.R` into an ordered, configurable analysis. Its NicheNet definitions follow the author's supplied `nichenet简化版.R` and original Figure 6 panel definitions. It contains raw matrix import, explicit QC and per-sample DoubletFinder, global Seurat clustering, fibroblast and neutrophil subclustering, marker exports, Monocle3 trajectories under two alternative roots, and NicheNet analyses. Optional sample-level pseudobulk DE and enrichment are revision analyses. No study expression matrices or network binaries are bundled.
 
-**Replacement prepared on 2026-10-20 for [the author's GitHub repository](https://github.com/Achilless2020/DSS-colitis-scRNA-seq).** The default NicheNet workflow now follows the retained original Figure 6, not the withdrawn exploratory redesign in the preceding package. The author uploads this replacement separately. Synthetic tests assess code execution and wrapper agreement, not historical numerical reproduction of the study's figures. See `docs/ORIGINAL_NICHENET.md`, `docs/PROVENANCE.md` and `docs/VALIDATION.md`.
+**Replacement prepared on 2026-10-20 for [the author's GitHub repository](https://github.com/Achilless2020/DSS-colitis-scRNA-seq).**  The author uploads this replacement separately. Synthetic tests assess code execution and wrapper agreement, not historical numerical reproduction of the study's figures. See `docs/ORIGINAL_NICHENET.md`, `docs/PROVENANCE.md` and `docs/VALIDATION.md`.
 
 ## Inputs and environment
 
